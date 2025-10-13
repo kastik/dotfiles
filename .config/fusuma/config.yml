@@ -1,0 +1,20 @@
+swipe:
+  4:
+    up:
+      update:
+        sendkey: VOLUMEUP
+    down:
+      update:
+        sendkey: VOLUMEDOWN
+    left:
+      sendkey: NEXTSONG
+    right:
+      sendkey: PREVIOUSSONG
+  3:
+    up:
+      hyprctl dispatch overview:close
+    down:
+      hyprctl dispatch overview:open
+hold:
+  4:
+    sendkey: PLAYPAUSE
